@@ -18,11 +18,19 @@ p {
   font-size: 16px;
 }
 
-/* NAVIGATION BAR */
-
 li {
   list-style: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* NAVIGATION BAR */
 
 nav {
   height: 100px;
@@ -62,4 +70,19 @@ nav {
   color:#6030b1;
   margin: 0 12px;
   font-weight: bold;
+}
+
+/* ABOUT ME */
+
+#about-me {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__info--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

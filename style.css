@@ -40,6 +40,18 @@ li {
   margin: 0 auto;
 }
 
+.section:nth-child(even) {
+  background-color: #c08989;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
+
 .text--purple {
   color: #6030b1;
 }

@@ -148,7 +148,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  marrgin
+  margin-top: 32px;
 }
 
 .about-me__img {
